@@ -6,11 +6,6 @@
 }
 /* @media à placer en bas de page après fin du code */
 
-@media screen and (max-width:600px) {
-    body {
-       
-    }
-}
 @keyframes transitionColor {
     0% {
         background-color: aqua;
@@ -77,6 +72,7 @@ nav {
 #titre-principal {
     font-weight: bold;
     color: #E46051;
+    margin: 10px;
 }
 #bouton-nav-culture {
     width: 33%;
@@ -87,6 +83,18 @@ nav {
 #bouton-nav-arts {
     width: 33%;
 }
+#bouton-s-abonner {
+    background-color: #EAB002;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 20px;
+}
+#bouton-menu {
+    margin: 20px;
+}
+
+/* main   */
+
 .icon-container {
     width: 25%;
 }
@@ -101,7 +109,7 @@ section {
 }
 
 .article {
-    background-color: white
+    background-color: white;
     width: 25%;
     margin: 10px;
     display: flex;
@@ -147,4 +155,13 @@ span {
 }
 body {
     background-color: rgb(214, 211, 211);
+}
+@media screen and (max-width:600px) {
+    nav ul {
+        display: flex;
+        flex-direction: column;
+    }
+    span {
+        display: none;
+    }
 }
