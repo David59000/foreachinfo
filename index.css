@@ -95,16 +95,37 @@ nav {
     height: 60px;
     display: flex;
 }
-#premier-theme-culture {
-    background-color: blueviolet;
+section {
+    background-color: rgb(214, 211, 211);
+    margin: 20px 42px;
 }
-#premier-container {
-    background-color: antiquewhite;
+
+.article {
+    background-color: white
+    width: 25%;
     margin: 10px;
+    display: flex;
 }
+.articles {
+    background-color:rgb(187, 183, 183);
+    margin: 10px 0px;
+    display: flex;
+}
+.blocs-articles {
+    width: 50%;
+}
+.containrer-image {
+    width: 50%;
+    margin: 15px;
+}
+.texte-article {
+    width: 50%;
+    margin: 15px 15px 15px 0px
+}
+
 #second-container {
     background-color: rgb(22, 234, 43);
-    margin: 20px;
+    margin: 10px 0px;
 }
 #troisieme-container {
     background-color: rgb(240, 10, 159);
@@ -112,4 +133,18 @@ nav {
 }
 #bouton-menu {
     display: flex;
+}
+.images-blocks {
+    width: 50px;
+    height: 50px;
+}
+#premier-block {
+    display: flex;
+}
+span {
+    color: #E46051;
+    font-size: 20px;
+}
+body {
+    background-color: rgb(214, 211, 211);
 }
