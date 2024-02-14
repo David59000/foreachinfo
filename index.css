@@ -1,5 +1,5 @@
 * {
-    margin: O;
+    margin: 0;
     padding: 0;
     font-family: Roboto;
     box-sizing: border-box;
@@ -8,7 +8,7 @@
 
 @media screen and (max-width:600px) {
     body {
-        background-color: beige;
+       
     }
 }
 @keyframes transitionColor {
@@ -27,9 +27,21 @@
 
 header {
     background-color: antiquewhite;
-    flex-wrap: wrap;
+    align-items: center;
+    /* max-width: 1200px; */
+    margin: auto;
+}
+
+#menu-block {
+    display: flex;
     align-items: center;
 }
+
+#icon-menu-container{
+    width: 30px;
+    height: 30px;
+}
+
 img {
     height: 100%;
     width: 100%;
@@ -42,12 +54,62 @@ ul {
   }
 li {
     text-align: center;
+    color: white;
+    margin: 5px;
 }
-Liseret {
-    height: 50px;
-    color: brown;
+#liseret {
+    height: 5px;
+    background-color: brown;
 }
 nav {
-    background-color: aquamarine;
+    background-color: #E46051;
     flex-wrap: wrap;
+}
+
+#header-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1600px;
+    margin: auto;
+    align-items: center;
+    padding: 25px 0;
+}
+#titre-principal {
+    font-weight: bold;
+    color: #E46051;
+}
+#bouton-nav-culture {
+    width: 33%;
+}
+#bouton-nav-science-vie {
+    width: 33%;
+}
+#bouton-nav-arts {
+    width: 33%;
+}
+.icon-container {
+    width: 25%;
+}
+#container-thematiques {
+    width: 60px;
+    height: 60px;
+    display: flex;
+}
+#premier-theme-culture {
+    background-color: blueviolet;
+}
+#premier-container {
+    background-color: antiquewhite;
+    margin: 10px;
+}
+#second-container {
+    background-color: rgb(22, 234, 43);
+    margin: 20px;
+}
+#troisieme-container {
+    background-color: rgb(240, 10, 159);
+    margin: 30px;
+}
+#bouton-menu {
+    display: flex;
 }
